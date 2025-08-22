@@ -1,0 +1,48 @@
+[
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ends_delight"
+      }
+    ],
+    "predicate": {
+      "items": [ "ends_delight:end_stone_knife" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": [ "sword/knife", "knife/end_stone" ],
+      "sword/hilt": [ "sword/basic_hilt", "basic_hilt/popped_chorus_fruit" ]
+    }
+  },
+  {
+    "predicate": {
+      "items": [ "ends_delight:purpur_knife" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": [ "sword/knife", "knife/popped_chorus_fruit" ],
+      "sword/hilt": [ "sword/basic_hilt", "basic_hilt/popped_chorus_fruit" ]
+    }
+  },
+  {
+    "predicate": {
+      "items": [ "ends_delight:dragon_egg_shell_knife" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": [ "sword/knife", "knife/half_dragon_egg_shell" ],
+      "sword/hilt": [ "sword/basic_hilt", "basic_hilt/popped_chorus_fruit" ]
+    }
+  },
+  {
+    "predicate": {
+      "items": [ "ends_delight:dragon_tooth_knife" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": [ "sword/knife", "knife/dragon_tooth" ],
+      "sword/hilt": [ "sword/basic_hilt", "basic_hilt/popped_chorus_fruit" ]
+    }
+  }
+]
